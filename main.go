@@ -1,7 +1,8 @@
 package main
 
 import (
-	fsnotify "gopkg.in/fsnotify.v1"
+	//fsnotify "gopkg.in/fsnotify.v1"
+	"github.com/go-fsnotify/fsnotify"
 	"os"
 	"os/exec"
 	"path/filepath"
